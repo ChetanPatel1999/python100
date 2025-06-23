@@ -15,6 +15,5 @@ if age>=18:
         print("your cold coffe is orderd please pay 80 rs")  
     else:
         print("you enterd wrong number")      
-
 else:
     print(f"you are not adult please try after {18-age} year")    
