@@ -10,4 +10,4 @@ for i in range(1,num+1):
 if c==2:
     print("prime number")
 else:
-    print("not prime")           
+    print("not prime")      
