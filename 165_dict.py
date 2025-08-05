@@ -16,5 +16,5 @@ print("-------------------------")
 for item in student.items():
     print(item)    
 print("-------------------------")
-for key in student:
-    print(f"{key} : {student[key]}")    
+for key,value in student.items():
+    print(f"{key} : {value}")    
