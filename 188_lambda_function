@@ -1,0 +1,30 @@
+#lambda function
+# def add(a,b):
+#     return a+b
+
+#function_name = lambda parameter : expression
+
+add=lambda a,b:a+b
+square= lambda n : n*n
+cube=lambda n:n*n*n
+gretest=lambda a,b: a if a>b else b
+max=lambda a,b,c: a if a>b and a>c else b if b>c else c
+even_list=lambda l1:[i for i in l1 if i%2==0]
+
+def even_list1(l1):
+    l2=[]
+    for i in l1:
+        if i%2==0:
+            l2.append(i)
+    return l2                 
+
+l1=[3,6,8,2,9,43]
+
+print(even_list1(l1))
+print(max(344,56,800))
+print(gretest(120,67))
+print(gretest(12,67))
+print(cube(2))
+print(square(5))
+print(square(3))
+print(add(12,10))
